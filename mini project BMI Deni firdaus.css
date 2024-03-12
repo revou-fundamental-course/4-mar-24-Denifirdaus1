@@ -1,0 +1,117 @@
+
+/* Styling untuk judul di dalam header */
+header>h1 {
+    text-align: center;
+}
+
+/* Styling untuk container utama dengan tata letak fleksibel */
+.main-container{
+    display: flex;
+}
+
+/* Styling untuk setiap item container */
+.container-item{
+    border: 1px solid;
+    width: 100%;
+    padding: 24px;
+}
+
+/* Styling untuk judul h2 dan h3 di dalam container-item */
+.container-item>h2{
+    text-align: center;
+}
+
+.container-item>h3{
+    text-align: center;
+}
+
+/* Styling untuk section di dalam container-item */
+.container-item>section{
+    text-align: center;
+    background-color: aliceblue;
+    padding-top: 8px;
+    padding-bottom: 24px;
+    border-radius: 9px;
+}
+
+/* Styling untuk tombol di dalam section */
+.container-item>section>button{
+    background-color: blue;
+    color: white;
+}
+
+/* Styling untuk container-form di dalam container-item */
+.container-form {
+    text-align: left;
+    background-color: aliceblue;
+    padding: 24px;
+    border-radius: 9px;
+}
+
+/* Styling untuk setiap div di dalam container-form */
+.container-form>div{
+    text-align: left;
+    padding: 8px;
+}
+
+/* Styling untuk tombol di dalam div di dalam container-form */
+.container-form>div>button{
+    text-align: left;
+}
+
+/* Styling umum untuk tombol */
+button{
+    border: 0px;
+    height: 24px;
+    padding-right: 24px;
+    padding-left: 24px;
+    border-color: white;
+    border-radius: 8px;
+}
+
+/* Styling untuk tombol Hitung BMI */
+#calculate{
+    background-color: blue;
+    color: white;
+}
+
+/* Styling untuk tombol Reset */
+#reset{
+    background-color: orangered;
+    color: white;
+}
+
+/* Styling untuk elemen input */
+input{
+    border-radius: 8px;
+    border: 1px;
+}
+
+/* Styling untuk tombol dengan ID konsul */
+#konsul {
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
+
+/* Styling untuk tampilan hasil BMI */
+.bmi-result {
+    font-size: 24px;
+    font-weight: bold;
+    color: #3f51b5;
+    margin-top: 20px;
+}
+
+/* Styling untuk interpretasi hasil BMI */
+.interpretasi {
+    font-size: 18px;
+    color: #666;
+    margin-top: 10px;
+}
+
+/* Styling untuk gambar logo */
+.logo img{
+    width: 300px;
+    height: auto;
+    text-align: center;
+}

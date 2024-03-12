@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Tautan ke berkas CSS eksternal -->
+    <link rel="stylesheet" href="mini project BMI Deni firdaus.css">
+</head>
+<body>
+    <header>
+        <!-- Judul -->
+        <h1>Hitung BMI </h1> 
+    </header>
+    <main>
+        <div class="main-container">
+            <div class="container-item">
+                <!-- Bagian Formulir BMI -->
+                <h2>Formulir BMI</h2><br><br>
+                
+                <section class="container-form">
+                    <!-- Pilihan Jenis Kelamin -->
+                    <div>
+                        <label >Jenis kelamin</label><br>
+                        <input type="radio" name="sex" id="sex-man">
+                        <label for="sex-man">laki-laki</label>
+                        <input type="radio" name="sex" id="sex-woman">
+                        <label for="sex-woman">perempuan</label>
+                    </div>
+                    <!-- Input Berat Badan -->
+                    <div>
+                        <label> Berat Badan (kg)</label> <br>
+                        <input type="number" id="weight" placeholder="Masukkan berat badan " step="0.1">
+                    </div>
+                    <!-- Input Usia -->
+                    <div>
+                        <label> Usia (tahun)</label> <br>
+                        <input type="number" id="age" placeholder="Masukkan Usia anda " >
+                    </div>
+                    <!-- Input Tinggi Badan -->
+                    <div>  
+                        <label> Tinggi badan (cm)</label> <br>                 
+                        <input type="number" id="height" placeholder="Masukkan tinggi badan " step="1">
+                    </div> 
+                    <!-- Tombol Hitung BMI dan Reset -->
+                    <div>
+                        <button type="button" id="calculate">Hitung BMI</button> 
+                        <button type="button" id="reset">Reset</button>
+                    </div>
+                </section>
+                <!-- Fitur -->
+                <h3>Keunggulan Fitur</h3>
+                <p>1. Menghitung Berat Badan</p>
+                <p>2. Menentukan Kategori Berat Badan Ideal atau Tidak</p>
+                <p>3. Mempersiapkan Program Penurunan Berat Badan</p>
+                <!-- Informasi Kalkulator BMI -->
+                <p>Kalkulator ini hanya boleh digunakan oleh orang dewasa (wanita hamil atau menyusui tidak boleh mengandalkan pembacaan BMI ini) dan tidak ada tindakan yang harus diambil berdasarkan nilainya selain berkonsultasi dengan orang yang memenuhi syarat seperti dokter.</p>
+                <p>Kalkulator akan memberi Anda gambaran tentang perbandingan berat badan Anda dengan nilai umum. Indeks Massa Tubuh (atau BMI) dihitung sebagai berat badan Anda (dalam kilogram) dibagi dengan kuadrat tinggi badan Anda (dalam meter) atau BMI = Kg/M2.</p>
+            </div>
+            <!-- Bagian Hasil -->
+            <div class="container-item">
+                <h2>Hasil</h2><br><br>
+                <section>
+                    <!-- Tampilan Hasil BMI -->
+                    <p class="bmi-result">Hasil BMI: <span id="bmi-result"></span></p>
+                    <!-- Interpretasi Hasil BMI -->
+                    <p class="interpretasi" >Interpretasi: <span id="interpretasi"></span></p><br><br>
+                    <!-- Tombol Unduh Hasil BMI -->
+                    <center><button  type="button" id="konsul">Unduh Hasil BMI</button></center>
+                </section><br>
+                <!-- Tombol Konsultasi dan Registrasi -->
+                <center><button  type="button" id="konsul">Konsultasi Ahli Gizi Via Aplikasi</button>
+                        <button  type="button" id="konsul">Registrasi Online Ahli Gizi</button></center><br><br>
+                <!-- Informasi Tambahan mengenai BMI -->
+                <p>BMI tidak sepenuhnya mewakili diagnosis menyeluruh dari kesehatan tubuh dan risiko penyakit seseorang. Anda perlu konsultasi lebih lanjut mengenai risiko dan kekhawatiran Anda terkait dengan berat badan Anda.</p>
+                <!-- Penyakit yang Terkait dengan obesitas -->
+                <section>
+                    <h3>Beberapa Penyakit yang Berasal dari obesitas</h3>
+                    <p>Diabetes</p>
+                    <p>Hipertensi</p>
+                    <p>Sakit Jantung</p>
+                    <p>Osteoartritis</p><br>
+                    <!-- Tombol Konsultasi dan Registrasi untuk Dokter -->
+                    <center><button  type="button" id="konsul">Konsultasi Dokter Via Aplikasi</button>
+                        <button  type="button" id="konsul">Registrasi Online Sekarang</button></center><br><br>
+                </section>        
+            </div>
+        </div>
+    </main>
+    <!-- Bagian Footer -->
+    <footer>
+        <center><h2>Unduh Aplikasi</h2></center>
+        <!-- Logo App Store -->
+        <div class="logo">
+            <center><img src="logo.png"></center>
+        </div>
+    </footer>
+    <!-- Tautan Script ke Berkas JavaScript Eksternal -->
+    <script src="mini project BMI Deni firdaus.js"></script>
+</body>
+</html>
